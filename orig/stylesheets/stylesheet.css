@@ -396,11 +396,6 @@ header h2 {
 	color: #9ddcff;
 	letter-spacing: 0;
 }
-.inner-header {
-	position: relative;
-	width: 940px;
-	margin: 0 auto;
-}
 .inner {
 	position: relative;
 	width: 940px;
@@ -1339,6 +1334,8 @@ display:none;
 	float:left;
 	color:#fff;
 }
+
+ 
 
 /*=========================================Search Reslut page ends here===================================*/
 
