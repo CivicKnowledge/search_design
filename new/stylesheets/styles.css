@@ -228,6 +228,11 @@ header h2 {
 	letter-spacing: 0;
 }
 
+.Navigation { margin:0px 0 0 6%; padding:0px;}
+.Navigation ul { margin:0px; padding:0px;}
+.Navigation ul li { list-style:none; float:left; margin:0px 14px 0 14px; padding:0px;}
+.Navigation ul li a {font-family: 'Droid Sans', sans-serif; font-size:14px; color:#7c7c7c; font-weight:400; text-decoration:none; float:left; margin:10px 0 10px 0; padding:0px;}
+.Navigation ul li a:hover { color:#2d71cd;}
 /*==============================================New Search Page Style Starts======================================================*/
 
 .DataSearchinputNew {
@@ -638,6 +643,7 @@ border-bottom-left-radius: 4px;}
 }
 
 
+.space { height:20px;}
 /*==============================================New Dataset Page Style Starts======================================================*/
 
 .DatasetHeadstyle {
@@ -1164,7 +1170,8 @@ header h1{font-size:30px;}
 .TableFooter a { font-size:13px; color:#ababab; font-weight:normal; margin:0px 0 0 20px; padding:0px; text-decoration:none;} 
 .TableFooter { text-align:left;}
 .vertical-tabs .responsive-tabs__panel { float:none!important; width:93%!important;}
-
+.Navigation ul li { list-style:none; float:left; margin:0px 5px 0 5px; padding:0px;}
+.Navigation ul li a { font-size:13px;}
 }
 
 @media print {

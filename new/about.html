@@ -15,6 +15,19 @@
 <title>Preetimatiar.GitHub.io by Preetimatiar</title>
 </head>
 <body>
+
+<!-- Navigation starts here-->
+	<div class="Navigation">
+    	<ul>
+        	<li><a href="index.html">Home</a></li>
+            <li><a href="result.html">Results</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="documentation.html">Documentation</a></li>
+        </ul>
+    </div>
+<!-- Navigation ends here-->
+<div class="clearfix"></div>
+
 <header>
   <div class="inner-header">
   	<div class="logo">
@@ -48,26 +61,32 @@
       <div class="Tabsinner">
         <!-- About Section starts here-->
         <div class="TabsContentSection">
-          <h3><span>External</span> Documentation</h3>
+         <div class="space"></div>
+         <p>The Selected Metropolitan/Micropolitan Area Risk Trends (SMART) project uses the Behavioral Risk Factor Surveillance System (BRFSS) to analyze
+the data of selected metropolitan and micropolitan statistical areas (MMSAs) with 500 or more respondents. BRFSS data can be used to identify emerging health problems, establish and track health objectives, and develop and evaluate public health policies and programs.</p>
           <!-- Table section starts here-->
           
           <div class="tableResponsive">
           <table  border="0" cellpadding="0" cellspacing="0">
             <tr>
-              <td><a href="http://www.cdc.gov/brfss/annual_data/2013/pdf/CODEBOOK13_LLCP.pdf" target="_blank">BRFSS Codebook</a></td>
-              <td>A Data Dictionary and codebook for the 2012 BRFSS</td>
+              <td>VID</td>
+              <td>d03G004</td>
             </tr>
             <tr>
-              <td><a href="http://www.cdc.gov/brfss/smart/smart_2012.html" target="_blank">Download Page</a></td>
-              <td>Web page that links to the source files.</td>
+              <td>Name</td>
+              <td>Dataset cdc.gov-brfss-county-0.0.4</td>
             </tr>
             <tr>
-              <td><a href="http://www.cdc.gov/brfss/smart/smart_faq.htm" target="_blank">Frequently Asked Questions</a></td>
-              <td>&nbsp;</td>
+              <td>Time</td>
+              <td>2012</td>
             </tr>
             <tr>
-              <td><a href="http://www.cdc.gov/brfss/smart/smart_data.htm" target="_blank">SMART BRFSS City and County Data and Documentation</a></td>
-              <td>SMART dataset page.</td>
+              <td>Space</td>
+              <td>US</td>
+            </tr>
+             <tr>
+              <td>Grain</td>
+              <td>Counties</td>
             </tr>
           </table>
           
@@ -89,34 +108,7 @@
           </table>
           </div>
           
-          <h3>Civic Knowledge Documentation</h3>
-          <p>The Selected Metropolitan/Micropolitan Area Risk Trends (SMART) project uses the Behavioral Risk Factor Surveillance System (BRFSS) to analyze the data of selected metropolitan and micropolitan statistical areas (MMSAs) with 500 or more respondents. BRFSS data can be used to identify emerging health problems, establish and track health objectives, and develop and evaluate public health policies and programs.</p>
-          <h3>Data Conversion</h3>
-          <p>This conversion of the BRFSS County data converts the PERIOD '.' character in the ASCII file to a NULL.</p>
-          <h3>Errors</h3>
-          <p>One record, seqno == 2012001899, has an illegal value for mrace, of '9 8 '. The record has been retained, but with the mrace value set to NULL. </p>
-          <h3>Caveats</h3>
-          <p>The county data is based on the BRFSS MSSA structure, and the BRFSS is based on a sample of the population, so not all counties have data. As noted in the dataset FAQ, <a href="http://www.cdc.gov/brfss/smart/smart_faq.htm#5" target="_blank">some counties did not have enough responses in all of the sample classes</a> to produce an estimate for the county. </p>
-          <h3>Sources</h3>
-            <div class="tableResponsive">
-          <table  border="0" cellpadding="0" cellspacing="0">
-            <tr>
-              <td>Variables</td>
-              <td>&nbsp;</td>
-              <td><a href="http://www.cdc.gov/brfss/smart/2012/CNTY_VarLayout_12.pdf" target="_blank">http://www.cdc.gov/brfss/smart/2012/CNTY_VarLayout_12.pdf</a></td>
-            </tr>
-            <tr>
-              <td>Brfss_county</td>
-              <td>Fixed Width source file for the data.</td>
-              <td><a href="www.cdc.gov/brfss/smart/2012/CNTY12ASC.zip" target="_blank">http://www.cdc.gov/brfss/smart/2012/CNTY12ASC.zip</a></td>
-            </tr>
-            <tr>
-              <td>Cnty2_sasout</td>
-              <td>SAS program with the names of variables and their posistions inthe source file.</td>
-              <td><a href="http://www.cdc.gov/brfss/smart/2012/CNTY12_SASOUT.SAS" target="_blank">http://www.cdc.gov/brfss/smart/2012/CNTY12_SASOUT.SAS</a></td>
-            </tr>
-          </table>
-          </div>
+        
           <!-- Table section ends here-->
         </div>
       </div>

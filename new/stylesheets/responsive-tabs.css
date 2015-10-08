@@ -1,5 +1,6 @@
 
 /* REQUIRED for core functionality */
+
 .vertical-tabs .responsive-tabs__list__item--active, 
 .vertical-tabs .responsive-tabs__list__item--active:hover {  background: #fff!important; border-bottom-color: #fff; color:#000!important;}
  
